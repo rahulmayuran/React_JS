@@ -11,25 +11,26 @@ import AccountCircleSharpIcon from '@mui/icons-material/AccountCircleSharp';
 function Header() {
   return (
     <div className='header'>
-        
-        <div className='header__left'>
-          <MenuIcon />
-          <img className='header__logo' 
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIbQI1voAFT-ldkrnOeKW8MXfSq3KVhqjAkw&usqp=CAU" 
+
+      <div className='header__left'>
+        <MenuIcon />
+        <img className='header__logo'
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbGv0YHWOrhNPL_Acz9UgDKzfvJARMEwibrg&usqp=CAU"
           alt="" />
-        </div>
+      </div>
 
-        <div className='header__search'>
-          <input type="text" />
-          <SearchIcon/>
-        </div>
+      <div className='header__search'>
+        <input type="text" placeholder='Search' />
+        <SearchIcon className='header__search__inputIcon' />
+        {/* <MicIcon className='header_search_mic' /> */}
+      </div>
 
-        <div className='header__icons'>
-          <VideocamIcon/>
-          <AppsIcon/>
-          <NotificationsActiveIcon/>
-          <AccountCircleSharpIcon/>
-        </div>
+      <div className='header__icons'>
+        <VideocamIcon className='header__icon'/>
+        <AppsIcon className='header__icon'/>
+        <NotificationsActiveIcon className='header__icon'/>
+        <AccountCircleSharpIcon className='header__icon'/>
+      </div>
 
     </div>
   )

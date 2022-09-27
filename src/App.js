@@ -8,8 +8,8 @@ function App() {
 
       {/* Sticky Header -> Component */}
       <Header />
-
-      {/* SideBar -> Component */}
+      
+      {/* SideBar -> Component has to be 20%*/}
       {/* Recommended Videos -> Component */}
 
     </div>
