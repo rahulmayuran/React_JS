@@ -8,3 +8,4 @@ Copy configs.
 6. Overview -> Project Settings -> config , and copy it and save in react code base in any file.
 7. Remove App.test.js, setupTests.js and logo.svg from base code.
 8. Install material-ui/core package
+9. Download the extension for react --> es7+ for rfce shortcut and couple of others.
