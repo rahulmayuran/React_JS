@@ -24,3 +24,11 @@
 1. For a sticky header, refer the Header.css.
 1. VideoCard.css has lineheight and margin-top in negative value which can manipulate height. 
 1. sidebarRow.css has all CSS effects for an icon.
+
+### React specific
+
+1. Visit https://v5.reactrouter.com/web/guides/quick-start for react router and do 
+    ```sh
+    npm i react-router-dom
+    ```
+1. 

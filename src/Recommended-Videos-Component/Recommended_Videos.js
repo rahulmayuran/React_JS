@@ -14,13 +14,13 @@ function Recommended_Videos() {
           channel= "Khanvict"
           image= "https://i.ytimg.com/vi/DrKLYvLPidw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC5wF1Ew3jg8sQqtW2TZ71tBTwzYQ"
         />
-        <VideoCard 
-          title = "Deep Koliis - Universe (OAC)"
-          views = "2k views"
-          timestamp= "2 weeks ago"
-          channelImage= "https://yt3.ggpht.com/SgOkUbgJdeZip2YlZ28S6MUOG8QKoUGNzEsF0WafmXlcDNLpftuSr78t_PU6oNyzpENHnBMt=s88-c-k-c0x00ffffff-no-nd-rj"
-          channel= "Deep Koliis"
-          image= "https://i.ytimg.com/vi/9qgtu0poYtQ/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLCG1rqxrcOqICZhJTpF_P3jwPpL7w"
+        <VideoCard
+          title = "Nanotechnology: A New Frontier"
+          views = "1M views"
+          timestamp= "2 years ago"
+          channelImage= "https://yt3.ggpht.com/ytc/AMLnZu_-XxX1PRjLfpIQ0rsxy-x53hpfy-JTOH81iG1ufw=s88-c-k-c0x00ffffff-no-rj"
+          channel= "Aperture"
+          image = "https://i.ytimg.com/an_webp/OLa8DQkKlyU/mqdefault_6s.webp?du=3000&sqp=CM-_vpsG&rs=AOn4CLDODwRR_CafvglkoIwewE2v0aTv2Q"
         />
         <VideoCard 
           title = "Deep Koliis - Stand (OAC)"
@@ -45,6 +45,22 @@ function Recommended_Videos() {
           channelImage= "https://yt3.ggpht.com/SgOkUbgJdeZip2YlZ28S6MUOG8QKoUGNzEsF0WafmXlcDNLpftuSr78t_PU6oNyzpENHnBMt=s88-c-k-c0x00ffffff-no-nd-rj"
           channel= "Deep Koliis"
           image = "https://i.ytimg.com/vi/NPZ8lnh8X_Q/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLC0CfabMsxCz2OiNd5Lojjm_xPgOw"
+        />
+        <VideoCard
+          title = "17 Coolest Gadgets You Can Actually Buy"
+          views = "1.7M views"
+          timestamp= "3 months ago"
+          channelImage= "https://yt3.ggpht.com/ytc/AMLnZu8DYCKjfSoS0ZGdCqNy80XKp45drew_5ALGJabzyg=s68-c-k-c0x00ffffff-no-rj"
+          channel= "YouFact Tech"
+          image = "https://i.ytimg.com/an_webp/qiMnSaZWf3M/mqdefault_6s.webp?du=3000&sqp=COnavpsG&rs=AOn4CLA6oeQIvkwR_7Wvpfxpxu5n8scfSA"
+        />
+        <VideoCard 
+          title = "Deep Koliis - Universe (OAC)"
+          views = "2k views"
+          timestamp= "2 weeks ago"
+          channelImage= "https://yt3.ggpht.com/SgOkUbgJdeZip2YlZ28S6MUOG8QKoUGNzEsF0WafmXlcDNLpftuSr78t_PU6oNyzpENHnBMt=s88-c-k-c0x00ffffff-no-nd-rj"
+          channel= "Deep Koliis"
+          image= "https://i.ytimg.com/vi/9qgtu0poYtQ/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLCG1rqxrcOqICZhJTpF_P3jwPpL7w"
         />
       </div>
     </div>
