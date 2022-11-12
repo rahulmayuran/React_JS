@@ -10,14 +10,14 @@ function App() {
 
       {/* Sticky Header -> Component */}
       <Header />
-      
-      <div className='Body__Remaining'>
-        
-      {/* SideBar -> Component has to be 20%*/}
-      <SideBar />
 
-      {/* Recommended Videos -> Component */}
-      <Recommended_Videos />
+      <div className='Body__Remaining'>
+
+        {/* SideBar -> Component has to be 20%*/}
+        <SideBar />
+        {/* Recommended Videos -> Component */}
+        <Recommended_Videos />
+
       </div>
 
 

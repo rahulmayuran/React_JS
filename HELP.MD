@@ -1,5 +1,5 @@
 1. VSCode terminal -> npx create-react-app <X> creates a react base code.
-2. Got to firebase -> console -> Create a project
+2. Go to firebase -> console -> Create a project
 3. Click web and provide nick name and also set the firebase hosting 
 4. Come back to react base code and do install 2 firebase dependencies, as instructed. Ignore if already done
 5. No need to do the deployment now. Skip it for later. 
