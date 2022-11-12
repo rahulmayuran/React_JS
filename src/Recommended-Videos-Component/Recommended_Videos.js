@@ -7,7 +7,7 @@ function Recommended_Videos() {
     <div className='recommendedVideos'>
       <div className='recommendedVideos__videos'>
         <VideoCard 
-          title = "Double Coffee - Dreaming"
+          title = "Khanvict - Closer"
           views = "3.8M views"
           timestamp= "1 year ago"
           channelImage= "https://yt3.ggpht.com/BF-_x67tLWk6uvsJLnhrtRMps0LZeCuPLVKCYXwdqY8dqWby9liaKd3lcQozs3JA2jqRXIkJzQ=s88-c-k-c0x00ffffff-no-rj"
