@@ -1,12 +1,15 @@
 ## About Project Configuration
 
 1. Open VSCode terminal and type the below command in CMD for creating a react base code structure. 
-    ```sh
+```javascript
     npx create-react-app <App-Name>
-    ``` 
+```   
 1. Go to firebase -> console -> Create a project
 1. Click web and provide nick name and also set the firebase hosting 
-1. Come back to react base code and do install 2 firebase dependencies, as instructed. Ignore if already done
+1. Install 2 firebase dependencies, as instructed. Ignore if already done
+```javascript
+    npm install firebase
+```
 1. No need to do the deployment now. Skip it for later. 
 
 ## Configuration Changes
@@ -29,4 +32,9 @@
     ```sh
     npm i react-router-dom
     ```
-1. 
+1. Used ```<link to> ``` tag to define the route path, The parameters can be passed using ${}. 
+1. App.js has the definition of Router by Importing ```javascript {BrowserRouter as Router, Routes, Route}.
+``` **Route** tag has *exact path* which should match the link to route path and * element* should point to the UI components to be displayed.
+
+## Deployment in Firebase
+
