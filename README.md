@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About Project Configuration
 
-## Available Scripts
+1. Open VSCode terminal and type the below command in CMD for creating a react base code structure. 
+    ```sh
+    npx create-react-app <App-Name>
+    ``` 
+1. Go to firebase -> console -> Create a project
+1. Click web and provide nick name and also set the firebase hosting 
+1. Come back to react base code and do install 2 firebase dependencies, as instructed. Ignore if already done
+1. No need to do the deployment now. Skip it for later. 
 
-In the project directory, you can run:
+## Configuration Changes
 
-### `npm start`
+1. Overview -> Project Settings -> config , and copy it and save in react code base in any file.
+1. Remove App.test.js, setupTests.js and logo.svg from base code.
+1. Install `material-ui/core` package
+1. Download `es7` extension for react for **rfce** shortcut for creating a react function component and couple of other shortcuts.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Take aways for CSS
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1. **Flex** property can be split across 2 components which always equals 1. Mention flex = 0.85 in one component and 0.15 in another
+1. For a sticky header, refer the Header.css.
+1. VideoCard.css has lineheight and margin-top in negative value which can manipulate height. 
+1. sidebarRow.css has all CSS effects for an icon.
 
-### `npm test`
+## React specific
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. Visit https://v5.reactrouter.com/web/guides/quick-start for react router and do 
+    ```sh
+    npm i react-router-dom
+    ```
+1. 

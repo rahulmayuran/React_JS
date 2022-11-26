@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './Header-Component/Header';
 import SideBar from './SideBar-Component/SideBar';
+import SearchPage from './Search-Page-Component/SearchPage';
 import Recommended_Videos from './Recommended-Videos-Component/Recommended_Videos'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -14,8 +15,16 @@ function App() {
         {/* For Sticky Header */}
         <Header/>
         <Routes>
-          <Route exact path='/search/:searchTerm'>
-            
+          <Route exact path='/search/:searchTerm' element=
+          {
+            <>
+              {/* Both sideBar and SearchPage need flex property, so enclosed in div tag*/}
+              <div className='Body__Remaining'>
+                <SideBar /> 
+                <SearchPage />  
+              </div> 
+            </>
+          }> 
           </Route>
 
           {/* For home page path, attaching all components to same route */}

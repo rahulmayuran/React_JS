@@ -20,7 +20,7 @@ function Recommended_Videos() {
           timestamp= "2 years ago"
           channelImage= "https://yt3.ggpht.com/ytc/AMLnZu_-XxX1PRjLfpIQ0rsxy-x53hpfy-JTOH81iG1ufw=s88-c-k-c0x00ffffff-no-rj"
           channel= "Aperture"
-          image = "https://i.ytimg.com/an_webp/OLa8DQkKlyU/mqdefault_6s.webp?du=3000&sqp=CM-_vpsG&rs=AOn4CLDODwRR_CafvglkoIwewE2v0aTv2Q"
+          image = "https://i.ytimg.com/vi/Mr7IEvlflnI/hqdefault_252266.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7xkWrtWyLhj4BpIPamEP9X7nv-w"
         />
         <VideoCard 
           title = "Deep Koliis - Stand (OAC)"
@@ -52,7 +52,7 @@ function Recommended_Videos() {
           timestamp= "3 months ago"
           channelImage= "https://yt3.ggpht.com/ytc/AMLnZu8DYCKjfSoS0ZGdCqNy80XKp45drew_5ALGJabzyg=s68-c-k-c0x00ffffff-no-rj"
           channel= "YouFact Tech"
-          image = "https://i.ytimg.com/an_webp/qiMnSaZWf3M/mqdefault_6s.webp?du=3000&sqp=COnavpsG&rs=AOn4CLA6oeQIvkwR_7Wvpfxpxu5n8scfSA"
+          image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSujb4nGtWhY9L1MdAdKemPWRyB_mAMBPm_fw&usqp=CAU"
         />
         <VideoCard 
           title = "Deep Koliis - Universe (OAC)"

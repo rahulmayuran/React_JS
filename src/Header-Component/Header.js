@@ -1,5 +1,4 @@
-//es7 snippets extension -> rfce
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from '@mui/icons-material/Search';
@@ -8,28 +7,44 @@ import AppsIcon from '@mui/icons-material/Apps';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import AccountCircleSharpIcon from '@mui/icons-material/AccountCircleSharp';
 
+import { Link } from 'react-router-dom'
+
 function Header() {
+
+  const [inputSearch, setInputSearch] = useState("");
+
   return (
     <div className='header'>
 
       <div className='header__left'>
+
         <MenuIcon />
-        <img className='header__logo'
-          src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg"
-          alt="" />
+        {/* Click the logo icon to go back to home page */}
+        <Link to={`/`}>
+          <img className='header__logo'
+            src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg"
+            alt="" />
+        </Link>
+
       </div>
 
       <div className='header__search'>
-        <input type="text" placeholder='Search' />
-        <SearchIcon className='header__search__inputIcon' />
-        {/* <MicIcon className='header_search_mic' /> */}
+        <input
+          type="text"
+          placeholder='Search'
+          value={inputSearch}
+          onChange={set => setInputSearch(set.target.value)}
+        />
+        <Link to={`/search/${inputSearch}`}>
+          <SearchIcon className='header__search__inputIcon' />
+        </Link>
       </div>
 
       <div className='header__icons'>
-        <VideocamIcon className='header__icon'/>
-        <AppsIcon className='header__icon'/>
-        <NotificationsActiveIcon className='header__icon'/>
-        <AccountCircleSharpIcon className='header__icon'/>
+        <VideocamIcon className='header__icon' />
+        <AppsIcon className='header__icon' />
+        <NotificationsActiveIcon className='header__icon' />
+        <AccountCircleSharpIcon className='header__icon' />
       </div>
 
     </div>
