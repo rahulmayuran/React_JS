@@ -1,3 +1,6 @@
+# YouTube Clone &copy;
+------------
+
 ## About Project Configuration
 
 1. Open VSCode terminal and type the below command in CMD for creating a react base code structure. 
@@ -6,7 +9,7 @@
 ```   
 1. Go to firebase -> console -> Create a project
 1. Click web and provide nick name and also set the firebase hosting 
-1. Install 2 firebase dependencies, as instructed. Ignore if already done
+1. Install firebase dependencies.
 ```javascript
     npm install firebase
 ```
@@ -33,8 +36,17 @@
     npm i react-router-dom
     ```
 1. Used ```<link to> ``` tag to define the route path, The parameters can be passed using ${}. 
-1. App.js has the definition of Router by Importing ```javascript {BrowserRouter as Router, Routes, Route}.
-``` **Route** tag has *exact path* which should match the link to route path and * element* should point to the UI components to be displayed.
+1. App.js has the definition of Router by Importing ```javascript {BrowserRouter as Router, Routes, Route}.``` **Route** tag has *exact path* which should match the route path provided in `<link to>` tag and * element* should point to the UI components to be displayed.
 
 ## Deployment in Firebase
+
+1. `npm install -g firebase-tools@10.9.2` to make node.js v14.17.3 compatible with firebase
+1. `firebase login` to authenticate your google account to allow firebase, Browser based.
+1. `firebase init` to initialize firebase repository and choose **Hosting - Configure and Deploy Firebase hosting**. 
+1. Press space, select it as existing project and follow the steps, Have set automatic deployments for GitHub by authorizing my firebase to Github.
+1. Do `npm run build` for building the react app and `firebase deploy` to deploy the app.
+1. You get a success message and can access the app.
+ - Project Console: https://console.firebase.google.com/project/clone-1cd51/overview
+ - Hosting URL: https://clone-1cd51.web.app
+
 
