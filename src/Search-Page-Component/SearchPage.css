@@ -2,3 +2,22 @@
   flex : 0.85;
   padding: 40px 0px 40px 30px;
 }
+
+.searchPage__filter{
+  display: flex;
+  align-items: center;
+  color: #606060;
+  font-size: xx-small !important;
+}
+
+.searchPage__filter > h2{
+  margin-left: 10px;
+}
+
+.searchPage > hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: lightgrey;
+  height: 1px;
+  border: 0;
+}
