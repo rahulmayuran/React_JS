@@ -47,6 +47,7 @@
 1. Do `npm run build` for building the react app and `firebase deploy` to deploy the app or `firebase deploy --only hosting:techtube` for choosing the host.
 1. You get a success message and can access the app.
  - Project Console: https://console.firebase.google.com/project/clone-1cd51/overview
- - Hosting URL: https://clone-1cd51.web.app
+ - Hosting URL: https://clone-1cd51.web.app |
+ https://techtube.web.app
 
 
