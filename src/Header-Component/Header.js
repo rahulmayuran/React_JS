@@ -22,7 +22,7 @@ function Header() {
         {/* Click the logo icon to go back to home page */}
         <Link to={`/`}>
           <img className='header__logo'
-            src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg"
+            src="https://upload.wikimedia.org/wikipedia/commons/3/31/TechTube.jpg"
             alt="" />
         </Link>
 
