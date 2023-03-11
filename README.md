@@ -32,7 +32,7 @@
 ## React specific
 
 1. Visit https://v5.reactrouter.com/web/guides/quick-start for react router and do 
-    ```sh
+    ```bash
     npm i react-router-dom
     ```
 1. Used ```<link to> ``` tag to define the route path, The parameters can be passed using ${}. 
@@ -44,7 +44,7 @@
 1. `firebase login` to authenticate your google account to allow firebase, Browser based.
 1. `firebase init` to initialize firebase repository and choose **Hosting - Configure and Deploy Firebase hosting**. 
 1. Press space, select it as existing project and follow the steps, Have set automatic deployments for GitHub by authorizing my firebase to Github.
-1. Do `npm run build` for building the react app and `firebase deploy` to deploy the app.
+1. Do `npm run build` for building the react app and `firebase deploy` to deploy the app or `firebase deploy --only hosting:techtube` for choosing the host.
 1. You get a success message and can access the app.
  - Project Console: https://console.firebase.google.com/project/clone-1cd51/overview
  - Hosting URL: https://clone-1cd51.web.app
