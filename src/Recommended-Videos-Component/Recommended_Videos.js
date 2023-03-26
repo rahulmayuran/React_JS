@@ -7,13 +7,13 @@ function Recommended_Videos() {
     <div className='recommendedVideos'>
       <div className='recommendedVideos__videos'>
         <VideoCard
-          title="10 BANNED GADGETS YOU CAN STILL BUY ON AMAZON"
+          title="11 BANNED GADGETS YOU CAN STILL BUY ON AMAZON"
           views="1.5M views"
           timestamp="1 month ago"
           channelImage="https://yt3.ggpht.com/jAHzWnbm4SUFI0Soc4g3zsL_atJI1a1zHsA03PjyevFhl2NjnWQheDtBFWl0tVqgaA7FsexB2g=s68-c-k-c0x00ffffff-no-rj"
           channel="BEST COOL TECH "
           image="https://i.ytimg.com/vi/759bYwbai8w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBbmnbYvXgPZXeq7TGunM7U62Ji9A"
-          embedId="DrKLYvLPidw"
+          embedId="KpxgdtPOikg"
         />
         <VideoCard
           title="Nanotechnology: A New Frontier"
@@ -84,7 +84,7 @@ function Recommended_Videos() {
           timestamp="1 year ago"
           channelImage="https://yt3.ggpht.com/8JOWLes9WTEbquQi1l0r0xvSCAvybEVhdFFYYSAK5lrrIEXYWsFYBSUofpqcON1WPei6__WIwi0=s88-c-k-c0x00ffffff-no-nd-rj"
           channel="Chill & Relax with Visual Effects"
-          image="https://i.ytimg.com/an_webp/IaT4DneyKLc/mqdefault_6s.webp?du=3000&sqp=COXesKAG&rs=AOn4CLCjcfV0M-C0pPQUar02Ezdk-XPONg"
+          image="https://i.ytimg.com/vi/ajSnIGTDNF8/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgjIBMofzAP&rs=AOn4CLCdgyfVAcnrpBIrv5j5JH2d9ufSUQ"
           embedId="IaT4DneyKLc"
         />
         <VideoCard
